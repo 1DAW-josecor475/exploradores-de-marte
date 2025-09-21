@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploradores de Marte - Registro</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="starfield"></div>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>EXPLORADORES DE MARTE</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#missions">Misiones</a></li>
+                <li><a href="../index.html#timeline">Cronología</a></li>
+                <li><a href="../index.html#exploration">Descubrimientos</a></li>
+                <li><a href="../index.html#future">Futuro</a></li>
+                <li><a href="register.html">Registro</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="mars-planet"></div>
+        <div class="hero-content">
+            <h1>Únete a la Aventura</h1>
+            <p>Forma parte de la próxima generación de exploradores espaciales y asegura tu lugar en la historia de
+                Marte.</p>
+            <a href="#form" class="cta-button">Registrarse</a>
+        </div>
+    </section>
+
+    <section id="form">
+        <h2>Registro de Exploradores</h2>
+        <form class="register-card" action="#" method="post">
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="pais">País:</label><br>
+            <input type="text" id="pais" name="pais"><br><br>
+
+            <label for="rol">Rol preferido en la misión:</label><br>
+            <select id="rol" name="rol">
+                <option value="cientifico">Científico</option>
+                <option value="ingeniero">Ingeniero</option>
+                <option value="piloto">Piloto</option>
+                <option value="medico">Médico</option>
+            </select><br><br>
+
+            <button type="submit" class="cta-button">Enviar Registro</button>
+        </form>
+    </section>
+
+    <section id="tabla">
+        <h2>Ranking de Exploradores</h2>
+        <div class="register-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                        <th>Misiones Completadas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>Científico</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>John Doe</td>
+                        <td>Piloto</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John Doe</td>
+                        <td>Ingeniero</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>John Doe</td>
+                        <td>Médico</td>
+                        <td>7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#missions">Misiones</a>
+                <a href="../index.html#timeline">Cronología</a>
+                <a href="../index.html#exploration">Descubrimientos</a>
+                <a href="../index.html#future">Futuro</a>
+                <a href="register.html">Registro</a>
+            </div>
+
+            <div class="social-section">
+                <h4>Contacto</h4>
+                <div class="social-links">
+                    <a href="https://github.com/EsderJ10" class="social-link" target="_blank">
+                        <img src="../images/github-icon.png" alt="Github" class="social-icon"></img>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:cortesf.joseantonio@gmail.com" class="social-link">
+                        <img src="../images/email-icon.png" alt="Email" class="social-icon"></img>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Exploradores de Marte. Unidos hacia el futuro.</p>
+                <p class="quote">"One small step for man, one giant leap for mankind." - Neil Armstrong</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
